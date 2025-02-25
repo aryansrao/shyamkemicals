@@ -1,31 +1,27 @@
-# Enable URL rewriting
+Options -MultiViews
 RewriteEngine On
-
-# Ensure the base path is set correctly
 RewriteBase /
 
-# Handle clean URLs for mission page
-RewriteRule ^mission/?$ mission.html [NC,L]
+# First, try to serve the requested file directly if it exists
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
 
-# Remove .html extension from URLs
+# Then handle specific routes
+RewriteRule ^mission$ mission.html [L]
+
+# Handle other html files without extension
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# Redirect explicit .html requests to clean URLs
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
 RewriteRule ^ %1 [R=301,L]
 
-# Internally add .html extension back
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
-
-# Redirect /index to /
-RewriteRule ^index$ / [R=301,L]
+# Redirect /index.html to /
 RewriteRule ^index\.html$ / [R=301,L]
 
-# Custom 404 page
+# Custom error page
 ErrorDocument 404 /404.html
 
-# Prevent directory listing
+# Prevent directory listings
 Options -Indexes
-
-# Force HTTPS (uncomment if you have SSL)
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
