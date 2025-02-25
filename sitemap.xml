@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+            http://www.google.com/schemas/sitemap-image/1.1
+            http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.shyamkemicals.com/</loc>
+        <lastmod>2024-02-25T16:02:28+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://www.shyamkemicals.com/assets/shyamkemicalslogo01.jpg</image:loc>
+            <image:title>Shyam Kemicals Logo</image:title>
+            <image:caption>Best naphthalene balls manufacturer in India</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Mission Page -->
+    <url>
+        <loc>https://www.shyamkemicals.com/mission.html</loc>
+        <lastmod>2024-02-25T16:02:28+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Products Section -->
+    <url>
+        <loc>https://www.shyamkemicals.com/#how-it-works</loc>
+        <lastmod>2024-02-25T16:02:28+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://www.shyamkemicals.com/assets/color.jpeg</image:loc>
+            <image:title>Colored Naphthalene Balls</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.shyamkemicals.com/assets/white.jpeg</image:loc>
+            <image:title>White Refined Naphthalene</image:title>
+        </image:image>
+         <image:image>
+            <image:loc>https://www.shyamkemicals.com/assets/creosote.jpeg</image:loc>
+            <image:title>Creosote Oil</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.shyamkemicals.com/assets/hpm.jpeg</image:loc>
+            <image:title>Hot Pressed Naphthalene</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.shyamkemicals.com/assets/powder.jpeg</image:loc>
+            <image:title>Naphthalene Powder</image:title>
+        </image:image>
+    </url>
+
+    <!-- 404 Page -->
+    <url>
+        <loc>https://www.shyamkemicals.com/404.html</loc>
+        <lastmod>2024-02-25T16:02:28+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.1</priority>
+    </url>
+
+</urlset>
