@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
             http://www.google.com/schemas/sitemap-image/1.1
@@ -18,6 +19,12 @@
             <image:title>Shyam Kemicals Logo</image:title>
             <image:caption>Best naphthalene balls manufacturer in India</image:caption>
         </image:image>
+        <video:video>
+            <video:thumbnail_loc>https://www.shyamkemicals.com/assets/thumbnail.jpeg</video:thumbnail_loc>
+            <video:title>Shyam Kemicals - Naphthalene Balls Manufacturing Process</video:title>
+            <video:description>Watch this video to know more about the best manufacturer in India</video:description>
+            <video:player_loc>https://www.youtube.com/embed/rLNBK7mvbow</video:player_loc>
+        </video:video>
     </url>
 
     <!-- Mission Page -->
@@ -54,14 +61,6 @@
             <image:loc>https://www.shyamkemicals.com/assets/powder.jpeg</image:loc>
             <image:title>Naphthalene Powder</image:title>
         </image:image>
-    </url>
-
-    <!-- 404 Page -->
-    <url>
-        <loc>https://www.shyamkemicals.com/404.html</loc>
-        <lastmod>2024-02-25T16:02:28+00:00</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.1</priority>
     </url>
 
 </urlset>
