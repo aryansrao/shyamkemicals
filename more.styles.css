@@ -170,8 +170,6 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-
-
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -307,8 +305,6 @@ html.w-mod-touch * {
   text-decoration: none;
   display: inline-block;
 }
-
-
 
 html[data-w-dynpage] [data-w-cloak] {
   color: #0000 !important;
@@ -5030,8 +5026,6 @@ body #mc_embed_signup div.mce_inline_error {
   height: 20px;
 }
 
-
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -5316,10 +5310,10 @@ body #mc_embed_signup div.mce_inline_error {
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-checkboxRow .label-description::before {
   border-color: #cccccc !important;
   background-color: #ffffff !important;
 }
@@ -5336,13 +5330,12 @@ body #mc_embed_signup div.mce_inline_error {
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-checkboxRow .label-description::before {
   border-radius: 4px !important;
 }
-
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::after,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::after,
@@ -5358,38 +5351,37 @@ body #mc_embed_signup div.mce_inline_error {
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input:checked~.custom-control-label::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-radio .custom-control-input:checked~.custom-control-label::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::before {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::before {
   border-color: #000000 !important;
   background-color: #000000 !important;
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-radio .custom-control-label::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::after,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::after,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-radio .custom-control-label::after,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::after,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::after {
+#mlb2-21554749.ml-form-fieldRow .custom-checkbox .custom-control-label::after,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-checkbox .custom-control-label::after {
   top: 2px;
   box-sizing: border-box;
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-checkboxRow .label-description::before {
   top: 0px !important;
   box-sizing: border-box !important;
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-checkboxRow .label-description::after {
   top: 0px !important;
   box-sizing: border-box !important;
 }
@@ -5436,7 +5428,7 @@ body #mc_embed_signup div.mce_inline_error {
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-checkboxRow .label-description::before {
   position: absolute;
   top: 4px;
   left: -1.5rem;
@@ -5476,13 +5468,13 @@ body #mc_embed_signup div.mce_inline_error {
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-checkbox .custom-control-label::after,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-checkboxRow .label-description::after {
   background: no-repeat 50%/50% 50%;
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-control,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-control {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-control {
   position: relative;
   display: block;
   min-height: 1.5rem;
@@ -5490,9 +5482,9 @@ body #mc_embed_signup div.mce_inline_error {
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-radio .custom-control-input,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-checkbox .custom-control-input {
   position: absolute;
   z-index: -1;
   opacity: 0;
@@ -5501,9 +5493,9 @@ body #mc_embed_signup div.mce_inline_error {
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label,
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-radio .custom-control-label,
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-checkbox .custom-control-label {
   color: #000000;
   font-size: 12px !important;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -5516,7 +5508,7 @@ body #mc_embed_signup div.mce_inline_error {
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-select,
-#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-select {
+#mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-horizontalRow .custom-select {
   background-color: #ffffff !important;
   color: #333333 !important;
   border-color: #cccccc;
@@ -5540,7 +5532,6 @@ body #mc_embed_signup div.mce_inline_error {
   -moz-appearance: none;
   appearance: none;
 }
-
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow {
   height: auto;
@@ -5629,7 +5620,6 @@ body #mc_embed_signup div.mce_inline_error {
   text-align: left;
   margin-bottom: 0;
   position: relative;
-
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label {
@@ -5640,7 +5630,6 @@ body #mc_embed_signup div.mce_inline_error {
   display: block;
   min-height: 24px;
   padding-left: 24px;
-
 }
 
 #mlb2-21554749.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label a {
@@ -5756,7 +5745,7 @@ body #mc_embed_signup div.mce_inline_error {
     padding-bottom: 10px;
   }
 
-  .ml-form-formContent.horozintalForm .ml-button-horizontal {
+  .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal {
     width: 100% !important;
   }
 
@@ -5767,3 +5756,287 @@ body #mc_embed_signup div.mce_inline_error {
 }
 
 @import url("https://assets.mlcdn.com/fonts.css?version=1734335");
+
+/* Bottom Nav Bar with Glassmorphism */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 60px;
+  padding: 12px 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: auto;
+  min-width: 300px;
+}
+
+.bottom-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.bottom-nav a:hover {
+  transform: translateY(-5px);
+}
+
+.bottom-nav a:hover .icon-circle {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.bottom-nav .icon-circle {
+  background: white;
+  border-radius: 50%;
+  width: 60px;  /* Increased from original size */
+  height: 60px; /* Increased from original size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.bottom-nav .icon {
+  width: 32px;   /* Increased from original size */
+  height: 32px;  /* Increased from original size */
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.bottom-nav a:hover .icon {
+  color: #333;
+}
+
+.bottom-nav .label {
+  font-size: 14px;  /* Increased from original size */
+  font-weight: 500;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+}
+
+.bottom-nav a:hover .label {
+  color: #000;
+}
+
+/* Adjust for dark background */
+[data-bg-section="dark"] .bottom-nav a {
+  color: #fff;
+}
+
+[data-bg-section="dark"] .bottom-nav .icon {
+  color: #333;
+}
+
+[data-bg-section="dark"] .bottom-nav .label {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+  .bottom-nav {
+    padding: 10px 18px;
+    bottom: 15px;
+  }
+  
+  .bottom-nav .icon-circle {
+    width: 50px;  /* Slightly smaller on mobile but still bigger than original */
+    height: 50px;
+  }
+  
+  .bottom-nav .icon {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .bottom-nav .label {
+    font-size: 12px;
+  }
+  
+  .bottom-nav a {
+    margin: 0 12px;
+  }
+}
+
+/* Active state for navigation */
+.bottom-nav a.active .icon-circle {
+  background: #f0f9ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-nav a.active .icon {
+  color: #0066cc;
+}
+
+/* Bottom Nav Bar with Glassmorphism - Enhanced Design */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 45px;
+  padding: 8px 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  width: auto;
+  min-width: 180px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease;
+}
+
+.bottom-nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.bottom-nav a:hover {
+  transform: translateY(-5px);
+}
+
+.bottom-nav a:hover .icon-circle {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-nav .icon-circle {
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.bottom-nav .icon {
+  width: 26px;
+  height: 26px;
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.bottom-nav a:hover .icon {
+  color: #333;
+  transform: scale(1.1);
+}
+
+/* Hide labels */
+.bottom-nav .label {
+  display: none;
+}
+
+/* Whatsapp icon specific styling */
+.bottom-nav .whatsapp-icon {
+  position: relative;
+  width: 26px;
+  height: 26px;
+}
+
+.bottom-nav .whatsapp-icon .whatsapp-base {
+  fill: #25D366;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
+}
+
+.bottom-nav .whatsapp-icon .whatsapp-logo {
+  fill: white;
+}
+
+.bottom-nav a:hover .whatsapp-icon {
+  transform: scale(1.1);
+}
+
+/* Adjust for dark background */
+[data-bg-section="dark"] .bottom-nav {
+  background: rgba(30, 30, 30, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+[data-bg-section="dark"] .bottom-nav a {
+  color: #fff;
+}
+
+[data-bg-section="dark"] .bottom-nav .icon-circle {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+[data-bg-section="dark"] .bottom-nav .icon {
+  color: #333;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+  .bottom-nav {
+    min-width: 150px;
+    padding: 6px 15px;
+  }
+  
+  .bottom-nav .icon-circle {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .bottom-nav .icon,
+  .bottom-nav .whatsapp-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* For very small devices */
+@media screen and (max-width: 380px) {
+  .bottom-nav {
+    min-width: 120px;
+    padding: 5px 12px;
+  }
+  
+  .bottom-nav a {
+    margin: 0 6px;
+  }
+  
+  .bottom-nav .icon-circle {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+/* Active state for navigation */
+.bottom-nav a.active .icon-circle {
+  background: #f0f9ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-nav a.active .icon {
+  color: #0066cc;
+}
+
+/* Hover effects for desktop */
+@media (hover: hover) and (pointer: fine) {
+  .bottom-nav a:hover .icon-circle {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+}
